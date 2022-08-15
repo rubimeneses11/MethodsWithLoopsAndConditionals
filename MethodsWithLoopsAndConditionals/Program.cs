@@ -1,79 +1,35 @@
 ﻿// See https://aka.ms/new-console-template for more information
 
-//exercise one- write this loop 15 times
-//"for" loops execute a specific number of times
+//exercise three
+using System;
+using MethodsWithLoopsAndConditionals;
 
-for (int i = 0; i < 5; i++)//for keyword (initializer;conditional;incrementer)
-{
-    Console.WriteLine($"{i}");//body
-}
+Methods.PrintThousand();
 
-for (int i = 0; i < 5; i++)
-{
-    Console.WriteLine($"{i}");
-}
+Console.WriteLine("------------------------------------------------------");
 
-for (int i = 0; i < 5; i++)
-{
-    Console.WriteLine($"{i}");
-}
+Methods.PrintByThree();
 
-for (int i = 0; i < 5; i++)
-{
-    Console.WriteLine($"{i}");
-}
+Console.WriteLine("------------------------------------------------------");
 
-for (int i = 0; i < 5; i++)
-{
-    Console.WriteLine($"{i}");
-}
+Methods.IsEqual(5, 6);
 
-for (int i = 0; i < 5; i++)
-{
-    Console.WriteLine($"{i}");
-}
+Console.WriteLine("------------------------------------------------------");
 
-for (int i = 0; i < 5; i++)
-{
-    Console.WriteLine($"{i}");
-}
+Methods.EvenOrOdd(2);
 
-for (int i = 0; i < 5; i++)
-{
-    Console.WriteLine($"{i}");
-}
+Console.WriteLine("------------------------------------------------------");
 
-for (int i = 0; i < 5; i++)
-{
-    Console.WriteLine($"{i}");
-}
+Methods.PositiveOrNegative(-1);
 
-for (int i = 0; i < 5; i++)
-{
-    Console.WriteLine($"{i}");
-}
+Console.WriteLine("------------------------------------------------------");
 
-for (int i = 0; i < 5; i++)
-{
-    Console.WriteLine($"{i}");
-}
+Methods.OfVotingAge(18);
 
-for (int i = 0; i < 5; i++)
-{
-    Console.WriteLine($"{i}");
-}
+Console.WriteLine("------------------------------------------------------");
 
-for (int i = 0; i < 5; i++)
-{
-    Console.WriteLine($"{i}");
-}
+Methods.IsInRange();
 
-for (int i = 0; i < 5; i++)
-{
-    Console.WriteLine($"{i}");
-}
+Console.WriteLine("------------------------------------------------------");
 
-for (int i = 0; i < 5; i++)
-{
-    Console.WriteLine($"{i}");
-}
+Methods.MultiplicationTable(1);
